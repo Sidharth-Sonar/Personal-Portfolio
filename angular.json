@@ -1,7 +1,10 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "f6db0291-177a-4f09-b849-f79966603f14"
+  },
   "version": 1,
-  "newProjectRoot": "projects",
+  "newProjectRoot": "portfolio",
   "projects": {
     "Personal-Portfolio": {
       "projectType": "application",
@@ -15,7 +18,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "son",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
