@@ -1,7 +1,21 @@
-son-home ,
+son-home,
 son-case-studies,
 son-about,
-son-catch-up{
-    display: flex;
-    height: 100vh;
+son-catch-up {
+  display: flex;
+  // height: 100%;
+  scroll-margin-top: 126px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em 0;
 }
